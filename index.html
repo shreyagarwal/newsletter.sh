@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Newsletter.sh</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+      /*
+       * Globals
+       */
+
+      /* Links */
+      a,
+      a:focus,
+      a:hover {
+        color: #fff;
+      }
+
+      /* Custom default button */
+      .btn-secondary,
+      .btn-secondary:hover,
+      .btn-secondary:focus {
+        color: #333;
+        text-shadow: none; /* Prevent inheritance from `body` */
+        background-color: #fff;
+        border: .05rem solid #fff;
+      }
+
+
+      /*
+       * Base structure
+       */
+
+      html,
+      body {
+        height: 100%;
+        background-color: #333;
+      }
+
+      body {
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -ms-flex-pack: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        color: #fff;
+        text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+      }
+
+      .cover-container {
+        max-width: 42em;
+      }
+
+
+      /*
+       * Header
+       */
+      .masthead {
+        margin-bottom: 2rem;
+      }
+
+      .masthead-brand {
+        margin-bottom: 0;
+      }
+
+      .nav-masthead .nav-link {
+        padding: .25rem 0;
+        font-weight: 700;
+        color: rgba(255, 255, 255, .5);
+        background-color: transparent;
+        border-bottom: .25rem solid transparent;
+      }
+
+      .nav-masthead .nav-link:hover,
+      .nav-masthead .nav-link:focus {
+        border-bottom-color: rgba(255, 255, 255, .25);
+      }
+
+      .nav-masthead .nav-link + .nav-link {
+        margin-left: 1rem;
+      }
+
+      .nav-masthead .active {
+        color: #fff;
+        border-bottom-color: #fff;
+      }
+
+      @media (min-width: 48em) {
+        .masthead-brand {
+          float: left;
+        }
+        .nav-masthead {
+          float: right;
+        }
+      }
+
+
+      /*
+       * Cover
+       */
+      .cover {
+        padding: 0 1.5rem;
+      }
+      .cover .btn-lg {
+        padding: .75rem 1.25rem;
+        font-weight: 700;
+      }
+
+
+      /*
+       * Footer
+       */
+      .mastfoot {
+        color: rgba(255, 255, 255, .5);
+      }
+
+    </style>
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+
+     <form style="text-align:center;" action="https://tinyletter.com/Shrey" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/Shrey', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+      <input type="hidden" value="1" name="embed"/>
+
+        <main role="main" class="inner cover">
+          <h1 class="cover-heading">Newsletter.sh<img src="data:image/png;base64,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" alt="Red dot" /></h1> 
+          <p class="lead">Reads for Engineer</p>
+          <p>Subscribe to our weekly newsletter</p>
+          <p>
+            <input type="email" style="width:140px" name="email" id="tlemail" />
+          </p>
+          <p class="lead">
+            <input type="submit" class="btn btn-lg btn-secondary" value="Subscribe" />
+          </p>
+        </main>
+
+      </form>
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Powered by <a href="https://getbootstrap.com/">BootStrap</a> , by <a href="https://twitter.com/mdo">@mdo</a> and <a href="https://tinyletter.com" target="_blank">Tinyletter</a></p>
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>
+
